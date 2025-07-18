@@ -4,6 +4,24 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensionsExecBaltaIo</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Renan Silva</Authors>
+    <PackageDescription>Extensions to convert decimal to integer</PackageDescription>
+    <Description>Extensions to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/Renanpedro/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Renanpedro/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;convert</PackageTags>
+    <Title>MoneyExtensionsExecBaltaIo</Title>
+    <Summary>Extensions to convert decimal to integer</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"> </None>
+  </ItemGroup>
 
 </Project>
