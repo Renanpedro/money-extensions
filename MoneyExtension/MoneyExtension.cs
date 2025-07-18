@@ -7,15 +7,15 @@ public static class Money
         if (Amount < 0)
             return 0;
 
-        var text = Amount
+        var value = Amount
                     .ToString("N2")
                     .Replace(",", "")
                     .Replace(".", "");
                     
-        if (string.IsNullOrEmpty(text))
+        if (string.IsNullOrEmpty(value))
             return 0;
 
-        int.TryParse(text, out var result);
+        int.TryParse(value, out var result);
         return result;
     }
 }
